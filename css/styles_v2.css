@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Monoton|Raleway:200,400,600|Righteous|Encode+Sans+Expanded:200,400|Montserrat:400:600|Righteous|BioRhyme:200|Cinzel:700&display=swap');
+
+:root {
+  --font-base-size: 1.4rem;
+  /* --font-h: BioRhyme; */
+  --font-h: Cinzel;
+  --font-header: Monoton;
+   --font-p: "Montserrat";
+   --font-menu: "Righteous";
+  /* --color-front: black; */
+  --color-front: DarkSlateGray	;
+  --color-back: white;
+  /* --color-back: lightyellow; */
+  --color-hint: palevioletred;
+  --color-hint-back: white
+  /*       --color-front: black;
+  --color-back: whitesmoke; */
+}
+
+/* ******************** END DESKTOP EXCEPTIONS ********************/
+
+body {
+  align-items: center;
+  justify-content: center;
+  color: var(--color-front);
+  background: var(--color-back);
+}
+
+#website{
+  width: 45rem;
+}
+
+header {
+  font-family: var(--font-header);
+  font-size: calc(var(--font-base-size)*3);
+  margin-top: var(--font-base-size);
+  margin-bottom: calc(var(--font-base-size)*2);
+  color: var(--color-hint);
+  text-align: center;
+}
+
+p, .author {
+  text-align: justify;
+  font-size: var(--font-base-size);
+  line-height: calc(var(--font-base-size)*1.4);
+  margin-bottom: calc(var(--font-base-size)*2);
+  margin-top: calc(var(--font-base-size)*2);
+}
+
+.author{
+  text-align: right;
+  font-size: calc(var(--font-base-size)*0.8);
+}
+
+
+p::first-letter {
+  font-family: var(--font-header);
+  font-size: calc(var(--font-base-size)*1.8);
+  color: var(--color-hint);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-h);
+  font-weight: 200;
+}
+h1 {
+  text-align: center;
+  font-size: calc(var(--font-base-size)*2.2);
+  margin-top:var(--font-base-size);
+  margin-bottom:var(--font-base-size);
+}
+
+h2 {
+  font-size: calc(var(--font-base-size)*1.8);
+}
+
+h3 {
+  font-size: calc(var(--font-base-size)*1.4);
+}
+
+a,
+a:visited {
+  color: var(--color-front);
+}
+
+
+strong {
+  font-weight: 600;
+}
+
+
+a:hover {
+  color: var(--color-hint);
+  border-radius: 0.1rem;
+}
+
+article {
+  /* margin: auto; */
+  /* width: 45rem; */
+  font-family: var(--font-p);
+}
+
+ul {
+  list-style: none;
+}
+
+quote {
+  border-left: solid 0.1rem var(--color-front);
+  font-size: var(--font-base-size);
+  padding-left: 1rem;
+  margin-left: 1rem;
+  font-family: car(--font-p);
+  font-weight: 200;
+}
+
+article>li {
+  text-align: justify;
+  font-size: var(--font-base-size);
+  font-family: var(--font-p);
+  font-weight: 200;
+}
+
+article>li:before {
+  content: "*  ";
+  list-style: none;
+  font-family: var(--font-h);
+  font-size: calc(var(--font-base-size)*1.4);
+  vertical-align: middle;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+  font-family: var(--font-p);
+}
+
+th {
+  border-bottom: 0.02rem solid var(--color-front);
+  font-family: var(--font-p);
+  font-weight: 400;
+}
+
+.post_separator {
+  background-image: url('/image/post_separator.svg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 3rem;
+}
+
+nav{
+  font-family: var(--font-p);
+}
+
+nav>ul {
+  display: flex;
+  text-decoration: none;
+  font-size: var(--baseFontSize);
+  list-style: none;
+  justify-content: center;
+}
+
+.tags {
+  font-size: calc(var(--font-base-size)/1.4);
+  text-align: right;
+}
+
+#footer{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-p);
+  font-size: calc(var(--font-base-size)/1.8);
+  flex-direction: column;
+}
+
+.footer_text{
+  margin-top: 1rem;
+text-align: center;
+}
+
+#footer>ul{
+  display: flex;
+  justify-content: center;
+
+}
+
+#menumobile{
+  visibility: hidden;
+}
+
+#twitter{
+  font-size: 2rem;
+  float:right;
+}
+
+#twitter:hover{
+  color: var(--color-hint);
+}
+
+#addthis{
+  font-family: var(--font-p);
+  float:right;
+}
+
+#addthis > a{
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu{
+   font-family: var(--font-p);
+   font-size: var(--font-base-size);
+   font-weight: 600;
+}
+
+.menu>ul>li:not(:first-child):before {
+  content: '|';
+  margin: 0.4rem;
+}

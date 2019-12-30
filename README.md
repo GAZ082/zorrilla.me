@@ -1,2 +1,0 @@
-# zorrilla.me
-Personal Website.
