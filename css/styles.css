@@ -179,7 +179,7 @@ nav>ul {
   font-family: var(--font-p);
   font-size: calc(var(--font-base-size)/1.8);
   flex-direction: column;
-  line-height: calc(var(--font-base-size)/1.8);
+  line-height: calc(var(--font-base-size)/1.4);
 }
 
 .footer_text{
