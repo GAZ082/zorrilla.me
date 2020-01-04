@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton|Montserrat:400:600|Cinzel:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton|Montserrat:400:600|Cinzel:700|Bungee+Shade&display=swap');
 
 
 
@@ -38,13 +38,12 @@ nav{
 
 :root {
   --font-h: Cinzel;
-  --font-header: Monoton;
-   --font-p: "Montserrat";
-   --font-menu: "Montserrat";
+  --font-header: "Bungee Shade";
+  --font-p: "Montserrat";
+  --font-menu: "Montserrat";
   --color-front: DarkSlateGray	;
-  --color-back: white;
+  --color-back: snow;
   --color-hint: palevioletred;
-  --color-hint-back: white
 }
 
 
@@ -120,6 +119,8 @@ a:visited {
   color: var(--color-front);
   text-decoration: none;
   border-bottom: 0.1rem solid var(--color-front);
+  margin-top: -20px;
+
 }
 
 a:hover {
@@ -239,12 +240,16 @@ text-align: center;
 #addthis{
   font-family: var(--font-p);
   float:right;
+  text-decoration: none;
 }
 
 #addthis > a{
   text-decoration: none;
   font-size: 1.2rem;
+  border:0
 }
+
+
 
 .menu{
    font-family: var(--font-p);
@@ -291,4 +296,24 @@ text-align: center;
   color: var(--color-hint);
   font-size: calc(var(--font-base-size)*2);
   border:0;
+}
+
+#commento p{
+  color: var(--color-front);
+  font-size: var(--font-base-size);
+}
+
+#commento a,
+#commento a:visited {
+  color: var(--color-front);
+  text-decoration: none;
+  border-bottom: 0.1rem solid var(--color-front);
+  margin-top: -20px;
+  font-size: var(--font-base-size);
+}
+
+
+#commento a:hover {
+  color: var(--color-hint);
+  border-bottom: 0.1rem solid var(--color-hint);
 }
