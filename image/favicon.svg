@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="245.47654"
-     inkscape:cy="94.436026"
+     inkscape:cx="151.66227"
+     inkscape:cy="94.256317"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,8 +37,8 @@
      fit-margin-bottom="1"
      inkscape:window-width="1388"
      inkscape:window-height="882"
-     inkscape:window-x="426"
-     inkscape:window-y="91"
+     inkscape:window-x="450"
+     inkscape:window-y="154"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,31 +57,26 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-41.054157,-85.873508)">
-    <g
-       id="g978"
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10759621;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect973"
+       width="16.933332"
+       height="16.933332"
+       x="97.949791"
+       y="124.60307" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.3341217px;line-height:1.25;font-family:Monotno;-inkscape-font-specification:Monotno;letter-spacing:0px;word-spacing:0px;fill:#db7093;fill-opacity:1;stroke:none;stroke-width:0.14893158;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="99.198242"
+       y="140.21349"
+       id="text817"
        inkscape:export-xdpi="192"
-       inkscape:export-ydpi="192">
-      <rect
-         y="124.60307"
-         x="97.949791"
-         height="16.933332"
-         width="16.933332"
-         id="rect973"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10759621;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-      <text
-         inkscape:export-ydpi="192"
-         inkscape:export-xdpi="192"
-         id="text817"
-         y="140.21349"
+       inkscape:export-ydpi="192"><tspan
+         sodipodi:role="line"
+         id="tspan815"
          x="99.198242"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.3341217px;line-height:1.25;font-family:Monotno;-inkscape-font-specification:Monotno;letter-spacing:0px;word-spacing:0px;fill:#db7093;fill-opacity:1;stroke:none;stroke-width:0.14893158;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monoton;-inkscape-font-specification:Monoton;fill:#db7093;fill-opacity:1;stroke:none;stroke-width:0.14893158;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           y="140.21349"
-           x="99.198242"
-           id="tspan815"
-           sodipodi:role="line">z</tspan></text>
-    </g>
+         y="140.21349"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monoton;-inkscape-font-specification:Monoton;fill:#db7093;fill-opacity:1;stroke:none;stroke-width:0.14893158;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">z</tspan></text>
     <circle
        style="opacity:1;fill:#db7093;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.43026721;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="path830-6"
@@ -90,5 +85,27 @@
        r="8.4666662"
        inkscape:export-xdpi="192"
        inkscape:export-ydpi="192" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10759621;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect973-4"
+       width="16.933332"
+       height="16.933332"
+       x="61.830502"
+       y="136.95981"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.94503403px;line-height:1.25;font-family:'Bungee Shade';-inkscape-font-specification:'Bungee Shade';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49862581"
+       x="62.708084"
+       y="151.51968"
+       id="text817-3"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192"><tspan
+         sodipodi:role="line"
+         id="tspan815-1"
+         x="62.708084"
+         y="151.51968"
+         style="stroke-width:0.49862581">Z</tspan></text>
   </g>
 </svg>
