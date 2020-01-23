@@ -33,11 +33,6 @@
 
 /* ******************** END DESKTOP EXCEPTIONS ********************/
 
-html, body{
-  height: auto;
-}
-
-
 body {
   display: flex;
   align-items: center;
@@ -382,7 +377,7 @@ z-index: 1;
 #menu_links {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: var(--color-back);
   text-align: center;
   border-right: 0.1rem solid var(--color-hint);
