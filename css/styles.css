@@ -8,7 +8,7 @@
     padding: 0 var(--font-base-size) 0 var(--font-base-size);
   }
 
-  nav {
+[name="desktop_menu"] {
     display: none;
   }
 
