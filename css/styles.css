@@ -29,6 +29,7 @@
     display: none;
   }
 
+
 }
 
 /* ******************** END DESKTOP EXCEPTIONS ********************/
@@ -51,7 +52,7 @@ body {
 }
 
 #website {
-  max-width: 44rem;
+  max-width: 50rem;
 }
 
 header {
@@ -59,8 +60,11 @@ header {
   font-size: calc(var(--font-base-size)*3);
   margin-top: var(--font-base-size);
   margin-bottom: calc(var(--font-base-size)*2);
+  margin-left: var(--font-base-size);
+  margin-right: var(--font-base-size);
   color: var(--color-header);
   text-align: center;
+   text-align: center;
 
 }
 
@@ -344,11 +348,13 @@ nav {
 
 #menuToggle {
   position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 0;
-  width: 60%;
-  height: 100%;
+  margin: 0.5rem;
+  top:0;
+  left:0;
+  z-index: 10;
+  width: 2rem;
+  height: 2rem;
+
 
 }
 
@@ -384,12 +390,12 @@ z-index: 1;
 #menu_links {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--color-back);
   text-align: center;
-  border-right: 0.1rem solid var(--color-hint);
-  left: -100%;
   top: 0;
+  display: none;
+  z-index: 0;
 }
 
 #menu_links li {
@@ -398,16 +404,7 @@ z-index: 1;
   font-family: var(--font-p);
 }
 
-#menuToggle input:checked~ul {
-  transform: translateX(98%);
-  transition: transform 0.8s;
 
-}
-
-#menuToggle input:not(checked)~ul {
-  transform: translateX(-100%);
-  transition: transform 0.8s;
-}
 
 i[name~="hint"] {
   color: var(--color-hint);
