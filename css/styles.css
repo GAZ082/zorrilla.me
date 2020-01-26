@@ -15,6 +15,9 @@
   #menuToggle {
     display: block;
   }
+  #website {
+    max-width: 100%;
+  }
 
 }
 
@@ -28,17 +31,15 @@
   #menuToggle {
     display: none;
   }
+  #website {
+    max-width: 50rem;
+  }
 
 
 }
 
 /* ******************** END DESKTOP EXCEPTIONS ********************/
 
-
-html {
-  height:100%;
-  min-height:100%;
-}
 
 body {
   display: flex;
@@ -51,9 +52,7 @@ body {
   min-height:100%;
 }
 
-#website {
-  max-width: 50rem;
-}
+
 
 header {
   font-family: var(--font-header);
