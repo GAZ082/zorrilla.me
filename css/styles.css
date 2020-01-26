@@ -1,7 +1,7 @@
 /* *******************MOBILE EXCEPTIONS *******************/
 @media screen and (max-device-width: 720px) {
   :root {
-    --font-base-size: 1.2rem;
+    --font-base-size: 1rem;
   }
 
   #website {
@@ -47,7 +47,7 @@ body {
 }
 
 #website {
-  max-width: 50rem;
+  max-width: 44rem;
 }
 
 header {
@@ -343,7 +343,8 @@ nav {
 
 #menuToggle {
   position: absolute;
-  margin: 0.5rem;
+  /* margin: 0.5rem; */
+  padding: 0.5rem;
   top:0;
   left:0;
   z-index: 10;
