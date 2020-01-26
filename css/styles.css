@@ -1,7 +1,7 @@
 /* *******************MOBILE EXCEPTIONS *******************/
 @media screen and (max-device-width: 720px) {
   :root {
-    --font-base-size: 1rem;
+    --font-base-size: 1.1rem;
   }
 
   #website {
