@@ -15,9 +15,6 @@
   #menuToggle {
     display: block;
   }
-  #website {
-    max-width: 100%;
-  }
 
 }
 
@@ -30,9 +27,6 @@
 
   #menuToggle {
     display: none;
-  }
-  #website {
-    max-width: 50rem;
   }
 
 
@@ -52,7 +46,9 @@ body {
   min-height:100%;
 }
 
-
+#website {
+  max-width: 50rem;
+}
 
 header {
   font-family: var(--font-header);
