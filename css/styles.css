@@ -4,7 +4,9 @@
     --font-base-size: 1.1rem;
   }
   #website {
-    /* padding: 0 var(--font-base-size) 0 var(--font-base-size); */
+     /* padding: 0 var(--font-base-size) 0 var(--font-base-size); */
+     padding-left: var(--font-base-size);
+     padding-right: var(--font-base-size);
     }
   }
 [name="desktop_menu"] {
