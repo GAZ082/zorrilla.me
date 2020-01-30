@@ -4,8 +4,10 @@
     --font-base-size: 1.1rem;
   }
   #website {
-     /* padding: 0 var(--font-base-size) 0 var(--font-base-size); */
-     padding: 2rem;
+    box-sizing: border-box;
+      padding: 0 var(--font-base-size) 0 var(--font-base-size);
+
+     /* padding: 2rem; */
 
     }
   }
