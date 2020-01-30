@@ -3,17 +3,13 @@
   :root {
     --font-base-size: 1.1rem;
   }
-
   #website {
-    padding: 0 var(--font-base-size) 0 var(--font-base-size);
-    max-width: 80%;
+    /* padding: 0 var(--font-base-size) 0 var(--font-base-size); */
     }
   }
-
 [name="desktop_menu"] {
     display: none;
   }
-
   #menuToggle {
     display: block;
   }
@@ -26,14 +22,12 @@
   :root {
     --font-base-size: 1.4rem;
   }
-
   #menuToggle {
     display: none;
   }
   #website {
     max-width: 44rem;
   }
-
 }
 
 /* ******************** END DESKTOP EXCEPTIONS ********************/
