@@ -4,12 +4,9 @@
     --font-base-size: 1.1rem;
   }
   #website {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
       padding: 0 var(--font-base-size) 0 var(--font-base-size);
       width: 100%;
-
-     /* padding: 2rem; */
-
     }
   }
 [name="desktop_menu"] {
