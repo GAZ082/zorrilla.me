@@ -345,7 +345,7 @@ nav {
 #menuToggle {
   position: absolute;
   /* margin: 0.5rem; */
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   top:0;
   left:0;
   z-index: 10;
