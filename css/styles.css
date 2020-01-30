@@ -431,8 +431,11 @@ ul > li > a > i{
   text-align: center;
 }
 
-.prev_next>a{
-border:0;
+.prev_next > a{
+  border:0;
+}
+.prev_next > a> i{
+  padding: calc(var(--font-base-size)/2)
 }
 
 em {
