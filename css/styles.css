@@ -16,6 +16,10 @@
   #menuToggle {
     display: block;
   }
+  #header{
+    margin-left: var(--font-base-size);
+    margin-right: var(--font-base-size);
+  }
 
 }
 
@@ -53,11 +57,8 @@ header {
   font-size: calc(var(--font-base-size)*3);
   margin-top: var(--font-base-size);
   margin-bottom: calc(var(--font-base-size)*2);
-  margin-left: var(--font-base-size);
-  margin-right: var(--font-base-size);
   color: var(--color-header);
   text-align: center;
-   text-align: center;
 
 }
 
