@@ -135,13 +135,14 @@ article {
   font-family: var(--font-p);
 }
 
-quote {
-  border-left: solid 0.1rem var(--color-front);
+blockquote {
+  border-left: solid 0.2rem var(--color-hint);
   font-size: var(--font-base-size);
   padding-left: var(--font-base-size);
   margin-left: var(--font-base-size);
   font-family: car(--font-p);
   font-weight: 200;
+  color: var(--color-hint);
 }
 
 article > ul {
